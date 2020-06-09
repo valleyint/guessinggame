@@ -1,6 +1,6 @@
 function guessinggame {
 x=0
-echo "in this program you will be asked for the no of files in the cureent directory"
+echo "in this program you will be asked for the no of files in the current directory"
 while [[ x -eq 0 ]]
 do
  nofile=`ls | wc -l`
@@ -8,7 +8,7 @@ do
  read guess
  if [[ $guess -eq $nofile ]]
  then
-  echo "congratulations , you guesed  the number of files in the director write"
+  echo "congratulations , you guesed the number of files in the directory right"
   x=1
  else
   if [[ $guess -gt $nofile ]]
@@ -20,3 +20,5 @@ do
  fi
 done
 }
+
+guessinggame
