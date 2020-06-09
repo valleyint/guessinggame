@@ -1,10 +1,10 @@
-
-#function guessinggame {
+function guessinggame {
 x=0
+echo "in this program you will be asked for the no of files in the cureent directory"
 while [[ x -eq 0 ]]
 do
  nofile=`ls | wc -l`
- echo "please try to guess the no of files in the current directory"
+ echo "guess"
  read guess
  if [[ $guess -eq $nofile ]]
  then
@@ -13,10 +13,10 @@ do
  else
   if [[ $guess -gt $nofile ]]
   then
-   echo "sorry your guess was too high , guess again"
+   echo "sorry your guess was too high , try again"
   else
-   echo "sorry your guess was too low , guess again"
+   echo "sorry your guess was too low , try again"
   fi
  fi
 done
-#}
+}
