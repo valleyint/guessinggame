@@ -5,4 +5,4 @@ readme.md:makefile
 	echo "" >>$@
 	echo -n "len : " >>$@
 	echo -n "`wc -l guessinggame.sh | sed 's/ .*//'`" >>$@
-	echo "lines" >>$@
+	echo " lines" >>$@
