@@ -1,4 +1,4 @@
 # guessinggame
-date and time of run : Thu Jun 11 04:49:49 UTC 2020
+date and time of run : Thu Jun 11 08:51:38 UTC 2020
 
-len : 24 guessinggame.sh  
+len : 24 guessinggame.sh | sed 's/ .*//'
