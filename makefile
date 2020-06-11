@@ -1,7 +1,6 @@
 readme.md:makefile
 	echo "# guessinggame" >$@
-	echo "date and time of run : " >>$@
-	echo -n "`date -u`" >>$@
-	echo >>$@
-	echo "len : " >>$@
-	echo -n "`wc -l guessinggame.sh`  " >>$@
+	echo -n "date and time of run : " >>$@
+	echo "`date -u`" >>$@
+	echo -n "len : " >>$@
+	echo "`wc -l guessinggame.sh`  " >>$@
