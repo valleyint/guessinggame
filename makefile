@@ -4,4 +4,5 @@ readme.md:makefile
 	echo "`date -u`" >>$@
 	echo "" >>$@
 	echo -n "len : " >>$@
-	echo "`wc -l guessinggame.sh | sed 's/ .*//'`" >>$@
+	echo -n "`wc -l guessinggame.sh | sed 's/ .*//'`" >>$@
+	echo "lines" >>$@

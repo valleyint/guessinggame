@@ -1,4 +1,4 @@
 # guessinggame
-date and time of run : Thu Jun 11 14:42:40 UTC 2020
+date and time of run : Thu Jun 11 14:50:43 UTC 2020
 
-len : 24
+len : 24lines
