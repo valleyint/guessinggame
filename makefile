@@ -1,4 +1,4 @@
-readme.md:makefile
+README.md:makefile
 	echo "# guessinggame" >$@
 	echo -n "date and time of run : " >>$@
 	echo "`date -u`" >>$@
